@@ -1,0 +1,14 @@
+# Data files (too large)
+data/*.h5
+data/*.nc
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store

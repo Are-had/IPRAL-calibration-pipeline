@@ -74,3 +74,10 @@ def L1_2_L2(ATB_par  , INDEX_FOR_THE_CALIBRATION , alt_sirta , beta_ray , LR =17
     beta_aerosol, beta_sum = klett_backscatter_aerosol_simplifié( ATB_par,LR,beta_ray,index_reference,reference_range,beta_aerosol_reference,bin_length,8*np.pi/3 , affiche=False)
 
     return beta_aerosol , beta_sum
+
+
+def depolarization_ratio( ATB_par  , ATB_per ):
+
+    depol_ratio = ATB_per / (ATB_par + ATB_per) 
+
+    return depol_ratio

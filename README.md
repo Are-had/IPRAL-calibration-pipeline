@@ -35,9 +35,7 @@ This pipeline processes ground-based lidar data from SIRTA (IPRAL instrument) an
 | File | Description |
 |------|-------------|
 | `pipeline.ipynb` | Main calibration notebook |
-| `data_prep.py` | Data loading and preprocessing functions |
 | `tools.py` | Calibration and inversion tools |
-| `calibration_tool.py` | Additional calibration utilities |
 
 ## Output
 
